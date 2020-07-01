@@ -13,6 +13,11 @@ public abstract class TripModel {
   public abstract String userId();
   public abstract double locationLat();
   public abstract double locationLong();
+
+  public abstract float locationLat();
+  public abstract float locationLong();
+  public abstract double locationLat();
+  public abstract double locationLong();
   
   @AutoValue.Builder
   public static abstract class Builder {
