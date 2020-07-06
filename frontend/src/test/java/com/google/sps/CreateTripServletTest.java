@@ -7,6 +7,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 import java.util.List;
+import com.google.tripmeout.frontend.storage.InMemoryPlaceVisitStorage;
+import com.google.tripmeout.frontend.PlaceVisitModel;
+import com.google.tripmeout.frontend.error.PlaceVisitNotFoundException;
 
 @RunWith(JUnit4.class)
 public final class InMemoryPlaceVisitStorageTest {
