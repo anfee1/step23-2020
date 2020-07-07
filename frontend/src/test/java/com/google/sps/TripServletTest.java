@@ -28,13 +28,11 @@ public class MyServletTest {
     }
 
     @Test
-    public void correctUsernameInRequest() throws ServletException, IOException {
+    public void userIdNotFound() throws ServletException, IOException {
         request.addParameter("userID", "12345");
 
         servlet.doGet(request, response);
-
         assertEquals("application/json;", response.getContentType());
 
-        // ... etc
     }
 }
