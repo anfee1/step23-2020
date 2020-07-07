@@ -34,6 +34,7 @@ function createEventNameElement(text) {
   dtElement.innerText = text;
   return dtElement;
 }
+
 function createDescription(text) {
   const ddElement = document.createElement('dd');
   ddElement.innerText = '-  ' + text;
