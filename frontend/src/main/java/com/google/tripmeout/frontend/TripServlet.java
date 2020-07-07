@@ -1,4 +1,4 @@
-package com.google.sps.tripmeout.frontend;
+package com.google.tripmeout.frontend;
 
 import com.google.tripmeout.frontend.TripModel;
 import com.google.tripmeout.frontend.storage.TripStorage;
